@@ -1,0 +1,19 @@
+{
+  "name": "desafio_aluraone_amigosecreto",
+  "version": "1.0.0",
+  "description": "Esse é um desafio do projeto Oracle Alura One que consiste em desenvolver um app de sorteio de amigo secreto",
+  "license": "ISC",
+  "author": "Rafael Lima",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "format": "biome format --write .",
+    "lint": "biome check .",
+    "lint:ci": "biome ci .",
+    "lint:fix": "biome check --write --unsafe ."
+  },
+  "devDependencies": {
+    "@arthurfiorette/biomejs-config": "^1.0.6",
+    "@biomejs/biome": "^1.9.4"
+  }
+}
